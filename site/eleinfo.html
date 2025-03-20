@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineBosta</title>
+
+    <style>
+         h1 {
+            margin-bottom: 5px; /* Ajuste a margem inferior do <h1> */
+        }
+        h2 {
+            margin-bottom: 5px;
+        }
+        p {
+            margin-top: 0; /* Remove a margem superior do <p> */
+        }
+        body {
+          transform: scale(1.75);  
+          transform-origin: top left;
+          width: 57%;
+        }
+        .barra-lateral {
+            width: 200px;
+            height: 200vh;
+            background-color: blue;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+        }
+
+        .barra-lateral a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .barra-lateral a:hover {
+            background-color: darkblue;
+        }
+
+        .conteudo {
+            margin-left: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            text-align: left; /* Centraliza horizontalmente */
+        }
+
+        .posicionada {
+            display: block;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra lateral -->
+    <div class="barra-lateral">
+        <a href="index.html">Início</a>
+        <a href="infrm.html">Info</a>
+        <a href="histry.html">História</a>
+        <a href="scrnsht.html">Fotos</a>
+        <a href="dcord.html">Discord</a>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo">
+        <h1>Sistema eleitoral</h1>
+        <p>3 candidatos; quem levar 1/3+1 ou mais dos votos ganha. O candidato escolhe seu vice, e até 10 leis; baseado nas leis, os jogadores escolhem o presidente, e o vice tem papel de juiz.</p>
+        <h2>Duração</h2>
+        <p>Um mandato dura 2 servidores, um período tem 5 mandatos</p>
+        <h2>Impeachment</h2>
+        <p>após o primeiro server, pode-se pedir por impeachment, para mais, <a href="manual.pdf">clique aqui</a>, na parte 3 de "1. para presidentes", é falando sobre o impeachment.</p>
+        
+    </div>
+
+</body>
+</html>

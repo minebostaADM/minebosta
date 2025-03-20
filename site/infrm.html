@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineBosta</title>
+
+    <style>
+        body {
+            transform: scale(1.75);  
+            transform-origin: top left;
+            width: 57%;
+        }
+        .barra-lateral {
+            width: 200px;
+            height: 200vh;
+            background-color: blue;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+        }
+
+        .barra-lateral a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .barra-lateral a:hover {
+            background-color: darkblue;
+        }
+
+        .conteudo {
+            margin-left: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center; /* Centraliza horizontalmente */
+        }
+
+        .bott-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px; /* espaçamento entre os botões */
+            margin-top: 20px; /* Espaço acima dos botões */
+        }
+        .bott-container a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .bott-container a:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra lateral -->
+    <div class="barra-lateral">
+        <a href="index.html">Início</a>
+        <a href="infrm.html">Info</a>
+        <a href="histry.html">História</a>
+        <a href="scrnsht.html">Fotos</a>
+        <a href="dcord.html">Discord</a>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo">
+        <h1>INFORMAÇÕES</h1>
+        
+        <!-- Botões em grade -->
+        <div class="bott-container">
+            <a href="gerinfo.html">Geral</a>
+            <a href="eleinfo.html">Eleições</a>
+            <a href="sisinfo.html">Sistemas</a>
+            <a href="interinfo.html">Interno</a>
+        </div>
+    </div>
+</body>
+</html>

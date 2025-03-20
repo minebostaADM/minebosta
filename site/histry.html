@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MineBosta</title>
+
+    <style>
+        body {
+          transform: scale(1.75);  
+          transform-origin: top left;
+          width: 57%;
+        }
+        .barra-lateral {
+            width: 200px;
+            height: 200vh;
+            background-color: goldenrod;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+        }
+
+        .barra-lateral a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .barra-lateral a:hover {
+            background-color: darkgoldenrod;
+        }
+
+        .conteudo {
+            margin-left: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center; /* Centraliza horizontalmente */
+        }
+
+        .posicionada {
+            display: block;
+            margin: 50px auto;
+        }
+        .bott-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px; /* espaçamento entre os botões */
+            margin-top: 20px; /* Espaço acima dos botões */
+        }
+        .bott-container a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            background-color: goldenrod;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .bott-container a:hover {
+            background-color: darkblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra lateral -->
+    <div class="barra-lateral">
+        <a href="index.html">Início</a>
+        <a href="infrm.html">Info</a>
+        <a href="histry.html">História</a>
+        <a href="scrnsht.html">Fotos</a>
+        <a href="dcord.html">Discord</a>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo">
+        <img src="https://i.imgur.com/GnwDRpd.png" class="posicionada" alt="Simbolo do MineBosta" width="300" height="190">
+        <h1>HISTÓRIA DO MINEBOSTA</h1>
+        <div class="bott-container">
+            <a href="mb1.html">Shalalalala 1 & 2</a>
+            <a href="mb2.html">MineBosta 2</a>
+            <a href="mb3.html">MineBosta 3</a>
+            <a href="mb49.html">MineBosta 4 ao 9</a>
+            <a href="mbclassic.html">MineBosta Classic & Rebirth</a>
+            <a href="mbv1.html">MineBosta v1.01</a>
+            <a href="mbt.html">MineBosta Tranquilo</a>
+            <a href="mb15">MineBosta 15</a>
+        </div>
+        
+    </div>
+
+</body>
+</html>
